@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozinha & Alimentação - El-Shaday Variedades Jequié</title>
+    <meta name="description" content="Panelas, tigelas, talheres, pratos, copos e acessórios para sua cozinha na El-Shaday Variedades em Jequié - BA. Preço justo e qualidade para o seu lar!">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TOPBAR INFORMATIVA -->
+    <div class="topbar">
+        <div class="container topbar-content">
+            <div class="topbar-left">
+                <span class="topbar-item">
+                    <i class="fas fa-map-marker-alt"></i> Largo da Feirinha do Joaquim Romão, nº 178 - Jequié - BA
+                </span>
+                <span class="topbar-item">
+                    <i class="fab fa-whatsapp"></i> (73) 99166-9775
+                </span>
+            </div>
+            <div class="topbar-right">
+                <div id="store-status-badge" class="store-status-badge">
+                    <span class="status-dot"></span>
+                    <span id="store-status-text">Verificando status...</span>
+                </div>
+                <a href="https://instagram.com/elshadayjequie" target="_blank" class="topbar-item" style="color: #fef08a;">
+                    <i class="fab fa-instagram"></i> @elshadayjequie
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER & NAVBAR -->
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="brand-logo">
+                <div class="logo-badge">
+                    <i class="fas fa-store"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>EL-SHADAY <span>VARIEDADES</span></h1>
+                    <p>Tudo para sua casa</p>
+                </div>
+            </a>
+
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#departments" class="active">Departamentos</a></li>
+                    <li><a href="index.html#about">Nossa História</a></li>
+                    <li><a href="index.html#card">Cartão Digital</a></li>
+                    <li><a href="contato.html">Fale Conosco</a></li>
+                    <li>
+                        <a href="https://wa.me/5573991669775?text=Ol%C3%A1!%20Gostaria%20de%20saber%20sobre%20itens%20de%20cozinha." target="_blank" class="nav-cta-btn">
+                            <i class="fab fa-whatsapp"></i> Falar Agora
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- BANNER DO DEPARTAMENTO -->
+    <section class="dept-page-header" style="background-image: linear-gradient(135deg, rgba(9, 46, 32, 0.94), rgba(18, 77, 54, 0.88)), url('images/cozinha-header.jpg');">
+        <div class="container">
+            <span class="section-tag" style="background: rgba(255,255,255,0.2); color: white;">Departamento</span>
+            <h1>Cozinha & Alimentação</h1>
+            <p>Tudo o que você precisa para deixar suas refeições mais práticas, bonitas e bem equipadas, com a durabilidade que sua família merece.</p>
+        </div>
+    </section>
+
+    <!-- BREADCRUMBS -->
+    <div class="breadcrumbs-bar">
+        <div class="container">
+            <a href="index.html">Início</a>
+            <span>/</span>
+            <a href="index.html#departments">Departamentos</a>
+            <span>/</span>
+            <strong>Cozinha & Alimentação</strong>
+        </div>
+    </div>
+
+    <!-- GRADE DE PRODUTOS -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Itens em Destaque</span>
+                <h2 class="section-title">Nossos Artigos de Cozinha</h2>
+                <p class="section-subtitle">
+                    Confira os itens mais buscados da seção. Quer saber o tamanho ou o valor exato? Clique no botão para nos consultar pelo WhatsApp!
+                </p>
+            </div>
+
+            <div class="category-items-grid">
+                <!-- Panelas e Tigelas -->
+                <div class="product-item-card">
+                    <div class="product-thumb">
+                        <img src="images/cozinha-1.jpg" alt="Panelas e Tigelas">
+                    </div>
+                    <div class="product-details">
+                        <h3>Panelas & Tigelas</h3>
+                        <p>Panelas antiaderentes, caçarolas, tigelas de vidro temperado e inox, formas para bolos e assadeiras.</p>
+                        <button class="btn-ask-item" data-product="Panelas e Tigelas">
+                            <i class="fab fa-whatsapp"></i> Consultar no WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Talheres e Acessórios -->
+                <div class="product-item-card">
+                    <div class="product-thumb">
+                        <img src="images/cozinha-2.jpg" alt="Talheres e Acessórios">
+                    </div>
+                    <div class="product-details">
+                        <h3>Talheres & Jogos de Mesa</h3>
+                        <p>Jogos de garfos, facas e colheres em aço inox, conchas, escumadeiras, colheres de pau e pegadores.</p>
+                        <button class="btn-ask-item" data-product="Talheres e Jogos de Mesa">
+                            <i class="fab fa-whatsapp"></i> Consultar no WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Pratos e Copos -->
+                <div class="product-item-card">
+                    <div class="product-thumb">
+                        <img src="images/cozinha-3.jpg" alt="Pratos e Copos">
+                    </div>
+                    <div class="product-details">
+                        <h3>Pratos, Copos & Xícaras</h3>
+                        <p>Pratos fundos e rasos em cerâmica e vidro, copos de vidro resistentes, canecas e jogos de xícaras para café.</p>
+                        <button class="btn-ask-item" data-product="Pratos, Copos e Xícaras">
+                            <i class="fab fa-whatsapp"></i> Consultar no WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Acessórios e Potes -->
+                <div class="product-item-card">
+                    <div class="product-thumb">
+                        <img src="images/cozinha-4.jpg" alt="Acessórios e Potes">
+                    </div>
+                    <div class="product-details">
+                        <h3>Potes & Acessórios Úteis</h3>
+                        <p>Potes herméticos para mantimentos, escorredores de pratos, raladores, peneiras, abridores e timers culinários.</p>
+                        <button class="btn-ask-item" data-product="Potes e Acessórios de Cozinha">
+                            <i class="fab fa-whatsapp"></i> Consultar no WhatsApp
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BANNER DE AJUDA PERSONALIZADA -->
+    <section style="background: var(--bg-card-alt); padding: 4rem 0;">
+        <div class="container" style="text-align: center;">
+            <div style="max-width: 650px; margin: 0 auto;">
+                <span class="section-tag">Atendimento Amigo</span>
+                <h2 class="section-title" style="margin-bottom: 1rem;">Não encontrou o que procurava?</h2>
+                <p class="section-subtitle" style="margin-bottom: 2rem;">
+                    Nosso estoque físico conta com centenas de itens de cozinha. Mande uma mensagem agora no WhatsApp da El-Shaday e encontramos para você!
+                </p>
+                <a href="https://wa.me/5573991669775?text=Ol%C3%A1!%20Procuro%20um%20item%20de%20cozinha%20espec%C3%ADfico%20na%20El-Shaday." target="_blank" class="btn-primary-hero">
+                    <i class="fab fa-whatsapp"></i> Consultar Estoque com a Gente
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>EL-SHADAY <span>VARIEDADES</span></h2>
+                    <p>A loja de variedades da sua família em Jequié - BA. Há mais de 15 anos no Largo da Feirinha do Joaquim Romão.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/elshadayjequie" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5573991669775" target="_blank" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Navegação</h3>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Início</a></li>
+                        <li><a href="index.html#departments"><i class="fas fa-chevron-right"></i> Todos Departamentos</a></li>
+                        <li><a href="index.html#about"><i class="fas fa-chevron-right"></i> Sobre Nossa Família</a></li>
+                        <li><a href="contato.html"><i class="fas fa-chevron-right"></i> Fale Conosco</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Outros Departamentos</h3>
+                    <ul class="footer-links-list">
+                        <li><a href="ferragens.html"><i class="fas fa-hammer"></i> Ferragens & Ferramentas</a></li>
+                        <li><a href="jardinagem.html"><i class="fas fa-seedling"></i> Jardinagem & Exterior</a></li>
+                        <li><a href="papelaria.html"><i class="fas fa-pen-nib"></i> Papelaria & Escritório</a></li>
+                        <li><a href="limpeza.html"><i class="fas fa-broom"></i> Limpeza & Organização</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Horário de Funcionamento</h3>
+                    <div class="footer-hours-item">
+                        <strong>Segunda a Sábado:</strong>
+                        08:00h às 19:00h
+                    </div>
+                    <div class="footer-hours-item">
+                        <strong>Domingo de Feira:</strong>
+                        07:30h às 13:00h
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 El-Shaday Variedades - Todos os direitos reservados.</p>
+                <div class="footer-tribute">
+                    <span>Feito com</span> <i class="fas fa-heart"></i> <span>para a loja do vovô</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WIDGET WHATSAPP -->
+    <div class="whatsapp-widget">
+        <a href="https://wa.me/5573991669775?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20itens%20de%20cozinha." target="_blank" class="whatsapp-btn-pulse" aria-label="Falar no WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Voltar ao Topo"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>

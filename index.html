@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El-Shaday Variedades - Tudo Para Sua Casa em Jequié - BA</title>
+    <meta name="description" content="El-Shaday Variedades em Jequié - BA. Há mais de 15 anos oferecendo artigos para o lar, cozinha, ferragens, jardinagem, papelaria, limpeza e utilidades com o melhor preço!">
+    
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Estilos Principais -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TOPBAR INFORMATIVA -->
+    <div class="topbar">
+        <div class="container topbar-content">
+            <div class="topbar-left">
+                <span class="topbar-item">
+                    <i class="fas fa-map-marker-alt"></i> Largo da Feirinha do Joaquim Romão, nº 178 - Jequié - BA
+                </span>
+                <span class="topbar-item">
+                    <i class="fab fa-whatsapp"></i> (73) 99166-9775
+                </span>
+            </div>
+            <div class="topbar-right">
+                <div id="store-status-badge" class="store-status-badge">
+                    <span class="status-dot"></span>
+                    <span id="store-status-text">Verificando status...</span>
+                </div>
+                <a href="https://instagram.com/elshadayjequie" target="_blank" class="topbar-item" style="color: #fef08a;">
+                    <i class="fab fa-instagram"></i> @elshadayjequie
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER & NAVBAR MODERNA -->
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="brand-logo">
+                <div class="logo-badge">
+                    <i class="fas fa-store"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>EL-SHADAY <span>VARIEDADES</span></h1>
+                    <p>Tudo para sua casa</p>
+                </div>
+            </a>
+
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#home" class="active">Início</a></li>
+                    <li><a href="#departments">Departamentos</a></li>
+                    <li><a href="#about">Nossa História</a></li>
+                    <li><a href="#benefits">Diferenciais</a></li>
+                    <li><a href="#card">Cartão & Contato</a></li>
+                    <li><a href="contato.html">Fale Conosco</a></li>
+                    <li>
+                        <a href="https://wa.me/5573991669775?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20El-Shaday%20e%20gostaria%20de%20um%20atendimento." target="_blank" class="nav-cta-btn">
+                            <i class="fab fa-whatsapp"></i> Falar Agora
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION IMPACTANTE -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-text-col">
+                <div class="hero-badge-pill">
+                    <i class="fas fa-star" style="color: #f59e0b;"></i> Mais de 15 Anos no Coração de Jequié
+                </div>
+                <h2 class="hero-title">
+                    Tudo o que você procura para sua casa, <span>em um só lugar.</span>
+                </h2>
+                <p class="hero-description">
+                    A loja de variedades mais tradicional e acolhedora da Feirinha do Joaquim Romão. De utensílios de cozinha a ferragens, papelaria e limpeza: aqui você encontra de tudo com preço justo e atendimento de família!
+                </p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/5573991669775?text=Ol%C3%A1,%20gostaria%20de%20consultar%20a%20disponibilidade%20de%20um%20produto%20na%20El-Shaday!" target="_blank" class="btn-primary-hero">
+                        <i class="fab fa-whatsapp"></i> Pedir pelo WhatsApp
+                    </a>
+                    <a href="#departments" class="btn-secondary-hero">
+                        <i class="fas fa-th-large"></i> Ver Departamentos
+                    </a>
+                </div>
+
+                <!-- Barra de Busca Rápida de Produtos -->
+                <div class="hero-search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="hero-search-input" placeholder="O que você procura hoje? (ex: panela, martelo, caderno...)">
+                    <button id="hero-search-btn">Buscar Item</button>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-card-featured">
+                    <img src="images/loja-fachada-real.jpg" alt="Fachada da Loja El-Shaday Variedades em Jequié">
+                    <div class="hero-floating-badge">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <strong>Tradição & Confiança</strong>
+                            <small>Família Silva • Desde 2009</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BARRA DE ESTATÍSTICAS E CONFIANÇA -->
+    <div class="container">
+        <div class="stats-bar">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="15" data-prefix="+">15</div>
+                    <div class="stat-label">Anos de Atendimento em Jequié</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="5000" data-prefix="+">5.000+</div>
+                    <div class="stat-label">Itens e Variedades em Estoque</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="100" data-suffix="%">100%</div>
+                    <div class="stat-label">Preço Baixo e Qualidade Garantida</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="6" data-prefix="">6</div>
+                    <div class="stat-label">Departamentos Completos para Você</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SEÇÃO DE DEPARTAMENTOS / PRODUTOS -->
+    <section class="departments-section" id="departments">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Variedade Incomparável</span>
+                <h2 class="section-title">Explore Nossos Departamentos</h2>
+                <p class="section-subtitle">
+                    Organizamos nossa loja para você achar rapidamente tudo o que o seu lar precisa. Venha nos visitar ou faça sua consulta pelo WhatsApp!
+                </p>
+            </div>
+
+            <div class="departments-grid">
+                <!-- Cozinha & Alimentação -->
+                <div class="dept-card">
+                    <div class="dept-image-wrapper">
+                        <img src="images/cozinha-1.jpg" alt="Cozinha e Alimentação">
+                        <div class="dept-badge"><i class="fas fa-fire"></i> Muito Procurado</div>
+                    </div>
+                    <div class="dept-content">
+                        <div class="dept-icon"><i class="fas fa-utensils"></i></div>
+                        <h3>Cozinha & Alimentação</h3>
+                        <p>Panelas antiaderentes, tigelas de vidro e inox, conjuntos de pratos, copos, talheres e utensílios essenciais para o seu dia a dia.</p>
+                        <div class="dept-items-tags">
+                            <span class="dept-tag">Panelas</span>
+                            <span class="dept-tag">Talheres</span>
+                            <span class="dept-tag">Copos & Pratos</span>
+                            <span class="dept-tag">Formas</span>
+                        </div>
+                        <div class="dept-actions">
+                            <a href="cozinha.html" class="btn-dept-details">Ver Seção Completa</a>
+                            <a href="#" class="btn-dept-whatsapp" data-product="Utensílios de Cozinha" title="Consultar no WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ferragens & Ferramentas -->
+                <div class="dept-card">
+                    <div class="dept-image-wrapper">
+                        <img src="images/ferragens-1.jpg" alt="Ferragens e Ferramentas">
+                        <div class="dept-badge"><i class="fas fa-tools"></i> Manutenção & Reparos</div>
+                    </div>
+                    <div class="dept-content">
+                        <div class="dept-icon"><i class="fas fa-hammer"></i></div>
+                        <h3>Ferragens & Ferramentas</h3>
+                        <p>Martelos, alicates, chaves de fenda, pregos, parafusos, ferro para soldar e todo material básico para seus consertos e manutenções.</p>
+                        <div class="dept-items-tags">
+                            <span class="dept-tag">Martelos</span>
+                            <span class="dept-tag">Alicates</span>
+                            <span class="dept-tag">Pregos & Parafusos</span>
+                            <span class="dept-tag">Soldas</span>
+                        </div>
+                        <div class="dept-actions">
+                            <a href="ferragens.html" class="btn-dept-details">Ver Seção Completa</a>
+                            <a href="#" class="btn-dept-whatsapp" data-product="Ferragens e Ferramentas" title="Consultar no WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Jardinagem & Exterior -->
+                <div class="dept-card">
+                    <div class="dept-image-wrapper">
+                        <img src="images/jardinagem-1.jpg" alt="Jardinagem e Exterior">
+                        <div class="dept-badge"><i class="fas fa-leaf"></i> Casa & Jardim</div>
+                    </div>
+                    <div class="dept-content">
+                        <div class="dept-icon"><i class="fas fa-seedling"></i></div>
+                        <h3>Jardinagem & Exterior</h3>
+                        <p>Vasos decorativos e funcionais para plantas, mangueiras, pás, tesouras de poda e acessórios completos para manter seu jardim vivo.</p>
+                        <div class="dept-items-tags">
+                            <span class="dept-tag">Vasos de Plantas</span>
+                            <span class="dept-tag">Pás & Ancinhos</span>
+                            <span class="dept-tag">Regadores</span>
+                            <span class="dept-tag">Mangueiras</span>
+                        </div>
+                        <div class="dept-actions">
+                            <a href="jardinagem.html" class="btn-dept-details">Ver Seção Completa</a>
+                            <a href="#" class="btn-dept-whatsapp" data-product="Itens de Jardinagem" title="Consultar no WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Papelaria & Escritório -->
+                <div class="dept-card">
+                    <div class="dept-image-wrapper">
+                        <img src="images/papelaria-1.jpg" alt="Papelaria e Escritório">
+                        <div class="dept-badge"><i class="fas fa-pencil-alt"></i> Volta às Aulas</div>
+                    </div>
+                    <div class="dept-content">
+                        <div class="dept-icon"><i class="fas fa-pen-nib"></i></div>
+                        <h3>Papelaria & Escritório</h3>
+                        <p>Cadernos escolares e universitários, canetas, lápis, borrachas, pastas, mochilas e materiais de escritório para trabalho e estudo.</p>
+                        <div class="dept-items-tags">
+                            <span class="dept-tag">Cadernos</span>
+                            <span class="dept-tag">Canetas & Lápis</span>
+                            <span class="dept-tag">Mochilas</span>
+                            <span class="dept-tag">Pastas</span>
+                        </div>
+                        <div class="dept-actions">
+                            <a href="papelaria.html" class="btn-dept-details">Ver Seção Completa</a>
+                            <a href="#" class="btn-dept-whatsapp" data-product="Artigos de Papelaria" title="Consultar no WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Limpeza & Organização -->
+                <div class="dept-card">
+                    <div class="dept-image-wrapper">
+                        <img src="images/limpeza-2.jpg" alt="Limpeza e Organização">
+                        <div class="dept-badge"><i class="fas fa-sparkles"></i> Higiene & Cuidado</div>
+                    </div>
+                    <div class="dept-content">
+                        <div class="dept-icon"><i class="fas fa-broom"></i></div>
+                        <h3>Limpeza & Organização</h3>
+                        <p>Baldes reforçados, bacias plásticas, vassouras, rodos, desinfetantes, borrifadores e organizadores que facilitam o dia a dia da casa.</p>
+                        <div class="dept-items-tags">
+                            <span class="dept-tag">Baldes & Bacias</span>
+                            <span class="dept-tag">Vassouras</span>
+                            <span class="dept-tag">Organizadores</span>
+                            <span class="dept-tag">Desinfetantes</span>
+                        </div>
+                        <div class="dept-actions">
+                            <a href="limpeza.html" class="btn-dept-details">Ver Seção Completa</a>
+                            <a href="#" class="btn-dept-whatsapp" data-product="Produtos de Limpeza" title="Consultar no WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Variedades & Utilidades do Lar -->
+                <div class="dept-card">
+                    <div class="dept-image-wrapper">
+                        <img src="images/index-variedade-1.jpg" alt="Variedades em Geral">
+                        <div class="dept-badge"><i class="fas fa-gift"></i> De Tudo um Pouco</div>
+                    </div>
+                    <div class="dept-content">
+                        <div class="dept-icon"><i class="fas fa-box-open"></i></div>
+                        <h3>Variedades & Presentes</h3>
+                        <p>Brinquedos para a criançada, utilidades plásticas, itens de decoração, artigos para presentes e novidades que chegam toda semana!</p>
+                        <div class="dept-items-tags">
+                            <span class="dept-tag">Brinquedos</span>
+                            <span class="dept-tag">Plásticos</span>
+                            <span class="dept-tag">Presentes</span>
+                            <span class="dept-tag">Decoração</span>
+                        </div>
+                        <div class="dept-actions">
+                            <a href="contato.html" class="btn-dept-details">Consulte Nosso Estoque</a>
+                            <a href="#" class="btn-dept-whatsapp" data-product="Variedades e Presentes" title="Consultar no WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE NÓS / HISTÓRIA DA LOJA DO VOVÔ -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images-composition">
+                    <img src="images/loja-fachada-real.jpg" alt="Fachada Real da Loja El-Shaday em Jequié" class="about-main-img">
+                    <div class="about-card-badge">
+                        <div class="badge-icon-box">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="badge-text">
+                            <h4>Atendimento com Carinho</h4>
+                            <p>Do seu amigo de confiança, o seu avô e toda família Silva.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text-content">
+                    <span class="section-tag">Tradição & Família</span>
+                    <h2>A Loja que Faz Parte da Vida de Jequié</h2>
+                    <p>
+                        Fundada em <strong>2009</strong>, a <strong>El-Shaday</strong> nasceu do sonho e dedicação da Família Silva: criar um espaço acolhedor no <strong>Largo da Feirinha do Joaquim Romão</strong> onde todo mundo pudesse encontrar o que precisasse para sua casa, sem burocracia e com aquele preço justo de quem respeita a comunidade.
+                    </p>
+                    <div class="family-quote-box">
+                        "Aqui na El-Shaday, o cliente não é um número. É um vizinho, um amigo da feira, uma família que a gente tem a honra de receber com um sorriso no rosto e o melhor conselho de balcão."
+                    </div>
+                    <p>
+                        Ao longo de mais de uma década e meia, crescemos junto com a nossa cidade. Mantemos viva a essência da verdadeira loja de variedades de bairro: um atendimento atencioso, uma conversa boa e a certeza de que você vai sair daqui com a solução em mãos!
+                    </p>
+
+                    <div class="about-features-list">
+                        <div class="feature-check">
+                            <i class="fas fa-check-circle"></i> Mais de 5.000 itens disponíveis
+                        </div>
+                        <div class="feature-check">
+                            <i class="fas fa-check-circle"></i> Preço baixo e pagamento fácil
+                        </div>
+                        <div class="feature-check">
+                            <i class="fas fa-check-circle"></i> Ajuda especializada no balcão
+                        </div>
+                        <div class="feature-check">
+                            <i class="fas fa-check-circle"></i> Aberto inclusive aos domingos até 13h
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5573991669775" target="_blank" class="btn-primary-hero">
+                        <i class="fab fa-whatsapp"></i> Falar com Nossa Família
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CARTÃO DE VISITA VIRTUAL -->
+    <section class="card-showcase-section" id="card">
+        <div class="container card-showcase-grid">
+            <div class="card-mockup-wrapper">
+                <img src="images/cartao-visita-real.jpg" alt="Cartão de Visita El-Shaday Variedades">
+            </div>
+            <div class="card-showcase-text">
+                <span class="section-tag" style="background: rgba(255,255,255,0.2); color: white;">Cartão Digital</span>
+                <h2>Tenha a El-Shaday Sempre na Palma da Mão</h2>
+                <p>
+                    Guarde o contato da loja no seu telefone! Aponte a câmera para o QR Code do nosso cartão oficial ou salve o número <strong>(73) 99166-9775</strong> na sua agenda.
+                </p>
+                <p>
+                    Assim que precisar de algum item para sua casa, reforma, escola ou jardim, é só mandar uma mensagem no WhatsApp que verificamos o estoque para você na hora.
+                </p>
+                <div class="card-showcase-actions">
+                    <a href="https://wa.me/5573991669775?text=Ol%C3%A1!%20Salvei%20o%20contato%20da%20El-Shaday%20pelo%20site." target="_blank" class="btn-primary-hero">
+                        <i class="fab fa-whatsapp"></i> Salvar no WhatsApp
+                    </a>
+                    <a href="https://instagram.com/elshadayjequie" target="_blank" class="btn-secondary-hero">
+                        <i class="fab fa-instagram"></i> Seguir no Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE DIFERENCIAIS -->
+    <section class="benefits-section" id="benefits">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Por Que Escolher a El-Shaday</span>
+                <h2 class="section-title">O Que Nos Torna Únicos</h2>
+                <p class="section-subtitle">
+                    Quem compra uma vez na El-Shaday vira cliente de confiança para sempre. Veja nossos diferenciais:
+                </p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-boxes"></i></div>
+                    <h3>Variedade de Verdade</h3>
+                    <p>De parafusos e martelos a copos, materiais escolares e brinquedos. Se você precisa em casa, tem na El-Shaday.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-tags"></i></div>
+                    <h3>Preço Justo de Feira</h3>
+                    <p>Margem justa que respeita o bolso das famílias trabalhadoras de Jequié, com promoções especiais toda semana.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-user-friends"></i></div>
+                    <h3>Atendimento de Balcão</h3>
+                    <p>Gente que conhece os produtos e dá dicas práticas para você levar exatamente o que vai resolver o seu problema.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-clock"></i></div>
+                    <h3>Horário que Facilita</h3>
+                    <p>Funcionamento de segunda a sábado das 8h às 19h, e no domingo das 7h30 às 13h para você aproveitar a feira.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE DEPOIMENTOS DA COMUNIDADE -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">A Voz de Quem Compra Conosco</span>
+                <h2 class="section-title">O Que Dizem os Nossos Clientes</h2>
+                <p class="section-subtitle">A confiança da vizinhança de Jequié é nosso maior orgulho diário.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-quote">
+                            "A melhor loja da Feirinha do Joaquim Romão! Sempre que preciso de alguma coisa rápida para a cozinha ou para um conserto em casa, passo lá. O atendimento do vovô e da família é nota 10!"
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div class="author-info">
+                            <h4>Maria das Graças</h4>
+                            <span>Moradora do Joaquim Romão</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-quote">
+                            "Lá você encontra de agulha a martelo! Comprei minhas panelas e as ferramentas que precisava para a oficina. Preço muito mais em conta do que no centro."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">C</div>
+                        <div class="author-info">
+                            <h4>Carlos Eduardo</h4>
+                            <span>Cliente assíduo em Jequié</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-quote">
+                            "O atendimento pelo WhatsApp me poupou muito tempo. Perguntei se tinham os vasos de jardinagem e as ferramentas, me responderam na hora com as fotos. Super recomendo!"
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div class="author-info">
+                            <h4>Ana Paula Barbosa</h4>
+                            <span>Jardineira amadora</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO LOCALIZAÇÃO & CONTATO INTERATIVO -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Venha Tomar um Café Conosco</span>
+                <h2 class="section-title">Localização & Fale Conosco</h2>
+                <p class="section-subtitle">Estamos no coração do Joaquim Romão, com fácil estacionamento e acesso.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Informações e Mapa -->
+                <div class="contact-info-col">
+                    <div class="contact-info-cards">
+                        <div class="info-card">
+                            <div class="info-card-icon"><i class="fas fa-map-marked-alt"></i></div>
+                            <h4>Endereço</h4>
+                            <p>Rua João José Duarte, nº 178<br>Largo da Feirinha do Joaquim Romão<br>Jequié - BA</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card-icon"><i class="fab fa-whatsapp"></i></div>
+                            <h4>WhatsApp Direto</h4>
+                            <p><a href="https://wa.me/5573991669775" target="_blank">(73) 99166-9775</a><br>Atendimento rápido no balcão</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card-icon"><i class="far fa-clock"></i></div>
+                            <h4>Horário de Funcionamento</h4>
+                            <p><strong>Seg a Sáb:</strong> 08h00 às 19h00<br><strong>Domingo:</strong> 07h30 às 13h00</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card-icon"><i class="fab fa-instagram"></i></div>
+                            <h4>Instagram</h4>
+                            <p><a href="https://instagram.com/elshadayjequie" target="_blank">@elshadayjequie</a><br>Acompanhe novidades diárias</p>
+                        </div>
+                    </div>
+
+                    <!-- Mapa Google Embed -->
+                    <div class="map-wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.8378393529944!2d-40.06587392437873!3d-13.045958887276585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x73ffc74034260d5%3A0xe556dcfa28b43825!2sR.%20Jo%C3%A3o%20Jos%C3%A9%20Duarte%2C%20178%20-%20Joaquim%20Rom%C3%A3o%2C%20Jequi%C3%A9%20-%20BA%2C%2045203-020!5e0!3m2!1spt-BR!2sbr!4v1710000000000!5m2!1spt-BR!2sbr" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        <div class="map-footer-cta">
+                            <span style="font-size: 0.9rem; color: #475569;"><i class="fas fa-location-arrow"></i> Largo da Feirinha, Jequié - BA</span>
+                            <a href="https://maps.google.com/?q=Rua+João+José+Duarte,+178,+Joaquim+Romão,+Jequié+-+BA" target="_blank" class="btn-open-maps">
+                                Traçar Rota no GPS <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulário com Envio para WhatsApp -->
+                <div class="contact-form-box">
+                    <h3>Envie uma Mensagem</h3>
+                    <p>Preencha os campos abaixo para iniciar um atendimento no WhatsApp com nossa equipe:</p>
+                    
+                    <form id="whatsapp-contact-form">
+                        <div class="form-group">
+                            <label for="form-name">Seu Nome Completo *</label>
+                            <input type="text" id="form-name" class="form-control" placeholder="Ex: Maria dos Santos" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-phone">Seu Telefone ou WhatsApp</label>
+                            <input type="tel" id="form-phone" class="form-control" placeholder="Ex: (73) 99999-9999">
+                        </div>
+                        <div class="form-group">
+                            <label for="form-subject">Qual assunto deseja falar?</label>
+                            <select id="form-subject" class="form-control">
+                                <option value="Consulta de Disponibilidade de Produto">Consulta de Produto em Estoque</option>
+                                <option value="Orçamento de Artigos para Casa">Orçamento de Artigos</option>
+                                <option value="Material Escolar / Papelaria">Material Escolar / Papelaria</option>
+                                <option value="Ferramentas e Ferragens">Ferramentas e Ferragens</option>
+                                <option value="Outro Assunto">Outro Assunto</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">Como podemos ajudar você? *</label>
+                            <textarea id="form-message" class="form-control" rows="4" placeholder="Ex: Olá! Gostaria de saber se vocês têm panela de pressão e copos em estoque..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Iniciar Conversa no WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ COMPLETO & ELEGANTE -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Coluna 1: Marca -->
+                <div class="footer-brand">
+                    <h2>EL-SHADAY <span>VARIEDADES</span></h2>
+                    <p>
+                        A loja de variedades da sua família em Jequié - BA. Há mais de 15 anos levando utilidade, praticidade e economia para o seu lar no Largo da Feirinha do Joaquim Romão.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/elshadayjequie" target="_blank" class="social-icon instagram" title="Instagram da El-Shaday">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5573991669775" target="_blank" class="social-icon whatsapp" title="WhatsApp da El-Shaday">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://facebook.com/elshadayjequie" target="_blank" class="social-icon" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Coluna 2: Navegação -->
+                <div class="footer-column">
+                    <h3>Navegação</h3>
+                    <ul class="footer-links-list">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Início</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> Sobre Nossa Família</a></li>
+                        <li><a href="#departments"><i class="fas fa-chevron-right"></i> Departamentos</a></li>
+                        <li><a href="#benefits"><i class="fas fa-chevron-right"></i> Nossos Diferenciais</a></li>
+                        <li><a href="#card"><i class="fas fa-chevron-right"></i> Cartão Digital</a></li>
+                        <li><a href="contato.html"><i class="fas fa-chevron-right"></i> Fale Conosco</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Departamentos -->
+                <div class="footer-column">
+                    <h3>Departamentos</h3>
+                    <ul class="footer-links-list">
+                        <li><a href="cozinha.html"><i class="fas fa-utensils"></i> Cozinha & Alimentação</a></li>
+                        <li><a href="ferragens.html"><i class="fas fa-hammer"></i> Ferragens & Ferramentas</a></li>
+                        <li><a href="jardinagem.html"><i class="fas fa-seedling"></i> Jardinagem & Exterior</a></li>
+                        <li><a href="papelaria.html"><i class="fas fa-pen-nib"></i> Papelaria & Escritório</a></li>
+                        <li><a href="limpeza.html"><i class="fas fa-broom"></i> Limpeza & Organização</a></li>
+                        <li><a href="contato.html"><i class="fas fa-gift"></i> Presentes & Variedades</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 4: Atendimento & Horários -->
+                <div class="footer-column">
+                    <h3>Horário de Balcão</h3>
+                    <div class="footer-hours-item">
+                        <strong>Segunda a Sábado:</strong>
+                        08:00h às 19:00h
+                    </div>
+                    <div class="footer-hours-item">
+                        <strong>Domingo de Feira:</strong>
+                        07:30h às 13:00h
+                    </div>
+                    <div class="footer-hours-item" style="margin-top: 1rem;">
+                        <strong>Telefone / WhatsApp:</strong>
+                        <a href="https://wa.me/5573991669775" target="_blank" style="color: var(--accent);">(73) 99166-9775</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 El-Shaday Variedades - Todos os direitos reservados. CNPJ comercial local em Jequié - BA.</p>
+                <div class="footer-tribute">
+                    <span>Feito com</span> <i class="fas fa-heart"></i> <span>para a loja do vovô</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WIDGET FLUTUANTE DO WHATSAPP -->
+    <div class="whatsapp-widget">
+        <div class="whatsapp-bubble">
+            👋 Olá! Precisa encontrar algo na loja?
+        </div>
+        <a href="https://wa.me/5573991669775?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20produtos%20da%20El-Shaday." target="_blank" class="whatsapp-btn-pulse" aria-label="Falar no WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- BOTÃO VOLTAR AO TOPO -->
+    <button class="back-to-top" id="back-to-top" aria-label="Voltar ao Topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
