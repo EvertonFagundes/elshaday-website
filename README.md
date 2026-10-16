@@ -19,7 +19,7 @@ Website institucional moderno, rápido, responsivo e acolhedor para a loja **El-
    - Navbar com efeito Glassmorphism que encolhe suavemente ao rolar a página.
    - Menu lateral animado para smartphones e tablets.
    - Barra de busca interativa no topo: digite o produto desejado e o site localiza e destaca a seção correspondente em tempo real.
-   - Contadores de estatísticas com números animados ao rolar a tela (+15 Anos, +5.000 Itens, 100% Preço Justo).
+   - Contadores de estatísticas com números animados ao rolar a tela (+20 Anos, +5.000 Itens, 100% Preço Justo).
    - Cards com efeito 3D lift, badges e zoom suave nas fotos.
    - Botão flutuante do WhatsApp com efeito de pulso contínuo (radar) e balão de boas-vindas.
    - Botão "Voltar ao Topo" suave.
@@ -30,11 +30,11 @@ Website institucional moderno, rápido, responsivo e acolhedor para a loja **El-
 
 5. **Estrutura Completa de Páginas**:
    - `index.html` (Página principal com história da família, departamentos, diferenciais, depoimentos, mapa e contato)
-   - `cozinha.html` (Panelas, pratos, talheres, tigelas e potes)
-   - `ferragens.html` (Martelos, chaves, alicates, solda, parafusos e ferramentas)
+   - `cozinha.html` (Panelas, pratos, talheres, tigelas e utensílios)
+   - `ferragens.html` (Martelos, chaves, alicates, solda e ferramentas)
    - `jardinagem.html` (Vasos decorativos, ferramentas de jardim, mangueiras e regadores)
    - `papelaria.html` (Cadernos, mochilas, escrita, escritório e orçamento escolar)
-   - `limpeza.html` (Baldes reforçados, bacias, produtos químicos, lavanderia e cestos)
+   - `limpeza.html` (Baldes, bacias, vassouras, rodos, panos de chão, pás e potes plásticos)
    - `contato.html` (Mapa interativo do Google Maps, rotas GPS, horários e formulário)
 
 ---
